@@ -3,6 +3,8 @@
 #include <memory>
 #include <utility>
 #include <algorithm>
+#include <map>
+#include <set>
 
 /*
  * Class Vertex represents agents
@@ -25,6 +27,7 @@ private:
 	std::vector<Neighbor> out_neighbors;
 	W profit;
 
+public:
 	W compute_profit(T new_cluster) {
 		W d = 0;
         for (auto neigh : out_neighbors) {
@@ -36,7 +39,6 @@ private:
 		return d;
 	}
 
-public:
 	Vertex(T _num) : num(_num)
 			, cluster(_num)
 			, profit(0)
@@ -48,38 +50,48 @@ public:
 		W delta = 0;
 
 		for (auto next : out_neighbors) {
-			W d = compute_profit(next.first->cluster);
+			W d = compute_profit(next.first->get_cluster());
 			if (d > new_profit) {
-                int voter = 0;
-                T cluster_size = 0;
+                W voter = 0; 
+
+                new_cluster = next.first->get_cluster();
+//                int voter = 0;
+//                T cluster_size = 0;
+
                 if (new_cluster != cluster) {
                     for (auto vertex : vertexes) {
                         if (vertex->cluster == new_cluster) {
-                            cluster_size++;
-                            bool c = false;
+
+//                            cluster_size++;
+//                            bool c = false;
+
                             for (auto neigh : vertex->get_out_neighbors()) {
                                 if (neigh.first->get_num() == num) {
-                                    c = true;
-                                    bool check = false;
-                                    for (auto f : out_neighbors) {
-                                        if (f.first->get_num() == vertex->get_num())
-                                            check = true;
-                                    }
-                                    if (u * neigh.second >= (1 - u) * (1 - neigh.second) || check) {
-                                        voter++;
-                                    }
+
+//                                    c = true;
+//                                    bool check = false;
+
+//                                    for (auto f : out_neighbors) {
+//                                        if (f.first->get_num() == vertex->get_num())
+//                                            check = true;
+//                                    } 
+
+//                                    std::cout << u*neigh.second - (1 - u) * (1 - neigh.second) << std::endl;
+                                    voter += u*neigh.second - (1 - u) * (1 - neigh.second); // voter++;
+//                                    if (u * neigh.second >= (1 - u) * (1 - neigh.second) || check) {
+//                                        voter++;
+//                                    }
                                 }
                             }
-                            if (!c) {
-                                voter++;
-                            }
-                        }
-                            
+//                            if (!c) {
+                                //voter += u*neigh.second; 
+//                                voter++;
+//                            }
+                        }   
                     }
                 }
-                if (voter >= cluster_size/2) {
+                if (voter >= 0) {
             		new_profit = d;
-				    new_cluster = next.first->cluster;
                 }
 			}
 		}
@@ -91,17 +103,6 @@ public:
 
         std::vector<Neighbor> in_neigh = directed ? in_neighbors : out_neighbors;
         
-        int voter = 0;
-        if (new_cluster != cluster) {
-       //     std::cout << "YES " << num << std::endl;
-            for (auto next : in_neigh) {
-                if (next.first->cluster == new_cluster) 
-                    next.first->profit += u * next.second;
-                else if (next.first->cluster == cluster)
-                    next.first->profit += ((1 - u) * (1 - next.second) - u * next.second);
-            }
-        }
-
         if (new_cluster != cluster) {
        //     std::cout << "YES " << num << std::endl;
             for (auto next : in_neigh) {
@@ -185,6 +186,7 @@ public:
 private:
 	std::vector<Ref> vertexes;
 	bool directed = true;
+    std::map<int, std::set<Vertex<T, W>>> clusters;
 
 	void read_edges(T m, bool _directed = true) {
 		for (T i = 0; i < m; i++) {
@@ -238,15 +240,13 @@ public:
 		compute_importances();
 		bool stop = false;
         W feedback = 0;
-   //     int i = 0;
 		while (!stop) {
             stop = true;
-   //         std::cout << std::endl << ++i << " iter" << std::endl;
 			for (auto vertex : vertexes) {
                 feedback = vertex->step(directed, vertexes);
-   //             std::cout << feedback << " ";
-                if (feedback)
+                if (feedback) {
                     stop = false;
+                }
             }
 		}
 	}
@@ -314,8 +314,9 @@ int main() {
 //    std::cout << n << " vertices" << std::endl;
 //    std::cout << m << " edges" << std::endl;
 
-//    std::cout << std::endl;
-/*    std::cout << "Directed:" << std::endl;
+/*    std::vector<int> clusters_d = g_d.get_clusters();
+    std::cout << std::endl;
+    std::cout << "Directed:" << std::endl;
     for (int i = 0; i < clusters_d.size(); i++) {
         std::cout << clusters_d[i] << "(i = " << utilities_d[i] << ", p = " << profits_d[i] << "), ";
     }   */
@@ -326,18 +327,28 @@ int main() {
     } */
 
     g_d.find_communities();
-//    std::vector<int> clusters_d = g_d.get_clusters();
+    std::vector<int> clusters_d = g_d.get_clusters();
+    for (int i = 0; i < clusters_d.size(); i++) {
+        std::cout << clusters_d[i] << " ";
+    }
+
+
 //    std::vector<float> utilities_d = g_d.get_utilities();
 //    std::vector<float> profits_d = g_d.get_profits();
     
 //    g.set_status(clusters_d, profits_d);
-    g.find_communities();
+//    g.find_communities();
 //    std::vector<int> clusters = g.get_clusters();
 //    std::vector<float> utilities = g.get_utilities();
 //    std::vector<float> profits = g.get_profits();
 
+
+
 //    std::cout << g_d.get_clusters_num() << std::endl;
-    std::cout << (float)g_d.get_clusters_num()/(float)g.get_clusters_num() << std::endl;
+
+
+
+//   std::cout << g_d.get_clusters_num() << std::endl;
 
 //    std::cout << "Directed: " << g_d.get_clusters_num() << " clusters" << std::endl;
 //    std::cout << "Undirected: " << g.get_clusters_num() << " clusters" << std::endl;

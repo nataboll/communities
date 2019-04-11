@@ -4,9 +4,10 @@ import os
 from plotly.offline import plot
 import plotly
 import plotly.graph_objs as go
+from numpy.random import choice
+from random import shuffle
 
 def write_data(filename, n, edges, cent=None, w_s=None):
-    random.seed(2)
     if w_s is None:
         w_s = [1/2,]*len(edges)
 
@@ -29,7 +30,7 @@ def read_data(filename):
 
 def show_plot(_x, _y_s):
     data = [go.Scatter(x = _x, y = _y[1], name=_y[0]) for _y in _y_s]
-    plot({"data": data, "layout": go.Layout(title="c(p)")}, auto_open=True)
+    plot({"data": data, "layout": go.Layout(title="c")}, auto_open=True)
 
 def get_centralities(g, n, name):
     if name=="pagerank":
@@ -58,23 +59,49 @@ def get_random_weights(m):
     for _ in range(n):
         w_s.append(round(random.random(), 3))
 
+def get_matrix(draw):
+    for i in range(len(draw)):
+        draw[i][i] = 0
+    for i in range(1, len(draw)):
+        for j in range(i):
+            draw[i][j] = draw[j][i]
+    return draw
+
+def generate_sequence(n):
+    graphs = []
+    draw = choice([0, 1], size=(n, n))
+    m = get_matrix(draw)
+#    print(m)
+    g0 = ig.Graph.Adjacency(m.tolist())
+    graphs.append(g0)
+    order = []
+    for i in range(1, n):
+        for j in range(i):
+            if m[i][j] == 1:
+                order.append((i, j))
+    shuffle(order)
+    for idx in order:
+        m[idx[0], idx[1]] = 0
+#        print(m)
+        graphs.append(ig.Graph.Adjacency(m.tolist()))
+    return graphs
+
 if __name__ == "__main__":
-    n = 10
-    l_max = 5
-    p_s = [float(k)/float(l_max) for k in range(l_max)]
-    res_s = []
+    n = 50
     c_s = ["static", "random", "degree", "closeness", "betweenness", "pagerank"]
+    res_s = []
+    random.seed(2)
+    graphs = generate_sequence(n)
+    n_s = [i+1 for i in range(len(graphs))]
     for c in c_s:
         res = []
-        for p in p_s:
-            g = ig.Graph.Erdos_Renyi(n, p, directed=False, loops=False)
+        for g in graphs:
             edges = g.get_edgelist()
             centralities = get_centralities(g, n, c)
-#            w_s = g.similarity_jaccard(pairs=edges)
-            w_s = get_random_weights(len(edges))
+            w_s = g.similarity_jaccard(pairs=edges)
             write_data("erdos_renyi.in", n, edges, cent=centralities, w_s=w_s)
             os.system("./../model < erdos_renyi.in > erdos_renyi.out")
             res.append(read_data("erdos_renyi.out"))
-        res_s.append([c, res])
-    show_plot(p_s, res_s)
-
+        res_s.append((c, res))
+    show_plot(n_s, res_s)
+#    print(res_s)
