@@ -174,7 +174,7 @@ def show_hist(n, _y_s_1, _y_s_2):
     titles = []
     for i in range(len(_y_s_1)):
         titles.append('Natasha, '+str(int(n/5)*i))
-        titles.append('Optimal modularity, '+str(int(n/5)*i))
+        titles.append('Label propagation, '+str(int(n/5)*i))
 
     fig = tools.make_subplots(rows=rows, cols=cols, subplot_titles=titles)
 
@@ -204,7 +204,7 @@ def get_composition_from_newman(n, memb):
 def get_hist(graphs, n):
     n_s = np.arange(len(graphs))
     res_s = []
-    c_s = ["pagerank",]
+    c_s = ["static",]
     for c in c_s:
         my_comp = []
         newman_comp = []
@@ -216,12 +216,14 @@ def get_hist(graphs, n):
             os.system("./../model < erdos_renyi.in > membership.out")
 
             memb = get_membership('membership.out')
-#            print(len(memb))
             my_comp.append(get_composition(n, memb))
 
-            newman_base_clustering = g.community_optimal_modularity(weights=w_s)
-#            print(newman_base_clustering)
+#            newman_base_clustering = g.community_infomap(edge_weights=w_s, vertex_weights=w_s)
+#            newman_comp.append(get_composition_from_newman(n, newman_base_clustering))
+
+            newman_base_clustering = g.community_label_propagation(weights=w_s)
             newman_comp.append(get_composition_from_newman(n, newman_base_clustering))
+
 
 #            walktrap_base_clustering = g.community_walktrap(weights=w_s).as_clustering()
 #            walktrap_memb.append(walktrap_base_clustering[0])
@@ -239,7 +241,7 @@ def get_hist(graphs, n):
 
 def generate_sequence(n):
     graphs = []
-    draw = choice([0, 1], size=(n, n), p=(49/50, 1/50))
+    draw = choice([0, 1], size=(n, n), p=(29/30, 1/30))
     m = get_matrix(draw)
 #    print(m)
     g0 = ig.Graph.Adjacency(m.tolist())
@@ -260,7 +262,7 @@ def generate_sequence(n):
     return graphs
 
 if __name__ == "__main__":
-    n = 50
+    n = 130
     random.seed(2)
     graphs = generate_sequence(n)
     get_hist(graphs, n)
