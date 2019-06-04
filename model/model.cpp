@@ -327,10 +327,6 @@ int main() {
     } */
 
     g_d.find_communities();
-    std::vector<int> clusters_d = g_d.get_clusters();
-    for (int i = 0; i < clusters_d.size(); i++) {
-        std::cout << clusters_d[i] << " ";
-    }
 
 
 //    std::vector<float> utilities_d = g_d.get_utilities();
@@ -344,7 +340,12 @@ int main() {
 
 
 
-//    std::cout << g_d.get_clusters_num() << std::endl;
+    std::cout << g_d.get_clusters_num() << std::endl;
+
+    std::vector<int> clusters_d = g_d.get_clusters();
+    for (int i = 0; i < clusters_d.size(); i++) {
+        std::cout << clusters_d[i] << " ";
+    }
 
 
 
