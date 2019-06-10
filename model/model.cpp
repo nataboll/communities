@@ -50,53 +50,30 @@ public:
 		W delta = 0;
 
 		for (auto next : out_neighbors) {
-			W d = compute_profit(next.first->get_cluster());
+            T tmp_new_cluster = next.first->get_cluster();
+			W d = compute_profit(tmp_new_cluster);
 			if (d > new_profit) {
                 W voter = 0; 
 
-                new_cluster = next.first->get_cluster();
-//                int voter = 0;
-//                T cluster_size = 0;
-
-                if (new_cluster != cluster) {
+                if (tmp_new_cluster != cluster) {
                     for (auto vertex : vertexes) {
-                        if (vertex->cluster == new_cluster) {
-
-//                            cluster_size++;
-//                            bool c = false;
-
+                        if (vertex->cluster == tmp_new_cluster) {
                             for (auto neigh : vertex->get_out_neighbors()) {
                                 if (neigh.first->get_num() == num) {
-
-//                                    c = true;
-//                                    bool check = false;
-
-//                                    for (auto f : out_neighbors) {
-//                                        if (f.first->get_num() == vertex->get_num())
-//                                            check = true;
-//                                    } 
-
-//                                    std::cout << u*neigh.second - (1 - u) * (1 - neigh.second) << std::endl;
-                                    voter += u*neigh.second - (1 - u) * (1 - neigh.second); // voter++;
-//                                    if (u * neigh.second >= (1 - u) * (1 - neigh.second) || check) {
-//                                        voter++;
-//                                    }
+                                    voter += u*neigh.second - (1 - u) * (1 - neigh.second); 
                                 }
                             }
-//                            if (!c) {
-                                //voter += u*neigh.second; 
-//                                voter++;
-//                            }
                         }   
                     }
                 }
                 if (voter >= 0) {
             		new_profit = d;
+                    new_cluster = tmp_new_cluster;
                 }
 			}
 		}
 
-        if (new_profit < 0) { 
+        if (new_profit == 0) { 
             new_cluster = num;
             new_profit = 0;
         }
@@ -104,10 +81,9 @@ public:
         std::vector<Neighbor> in_neigh = directed ? in_neighbors : out_neighbors;
         
         if (new_cluster != cluster) {
-       //     std::cout << "YES " << num << std::endl;
             for (auto next : in_neigh) {
                 if (next.first->cluster == new_cluster) 
-                    next.first->profit += u * next.second;
+                    next.first->profit += (u * next.second - (1 - u)*(1 - next.second));
                 else if (next.first->cluster == cluster)
                     next.first->profit += ((1 - u) * (1 - next.second) - u * next.second);
             }
@@ -240,9 +216,11 @@ public:
 		compute_importances();
 		bool stop = false;
         W feedback = 0;
+        auto order = vertexes; //
 		while (!stop) {
             stop = true;
-			for (auto vertex : vertexes) {
+            std::random_shuffle(order.begin(), order.end()); //
+			for (auto vertex : order) { //
                 feedback = vertex->step(directed, vertexes);
                 if (feedback) {
                     stop = false;

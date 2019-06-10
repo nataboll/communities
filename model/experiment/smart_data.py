@@ -28,7 +28,7 @@ def read_data(filename):
         f.seek(0)
         ans0 = f.readline()
         ans1 = f.readline().split()
-        return (float(ans0), ans1)
+    return (float(ans0), ans1)
 
 def show_plot(_x, _y_s):
     data = [go.Scatter(x = _x, y = _y[1], name=_y[0]) for _y in _y_s]
@@ -73,7 +73,6 @@ def generate_sequence(n):
     graphs = []
     draw = choice([0, 1], p=[2/3, 1/3], size=(n, n))
     m = get_matrix(draw)
-#    print(m)
     graphs.append(ig.Graph.Adjacency(m.tolist()))
     order = []
     for i in range(1, n):
@@ -81,44 +80,40 @@ def generate_sequence(n):
             if m[i][j] == 1:
                 order.append((i, j))
     shuffle(order)
-    for idx in order:
+    for i,idx in enumerate(order):
         m[idx[0], idx[1]] = 0
-#        print(m)
-        graphs.append(ig.Graph.Adjacency(m.tolist()))
+        if i % 10:
+            graphs.append(ig.Graph.Adjacency(m.tolist()))
 
-    edgelists = [g.get_edgelist() for g in graphs]
-    with open('saved.txt', 'w') as f:
-        f.write(json.dumps(edgelists))
+#    edgelists = [g.get_edgelist() for g in graphs]
+#    with open('saved.txt', 'w') as f:
+#        f.write(json.dumps(edgelists))
 
     return graphs
 
 if __name__ == "__main__":
-    n = 10
-#    c_s = ["static", "random", "degree", "closeness", "betweenness", "pagerank"]
-    c_s = ['static',]
+    n = 150
+    centralities = [1/2,]*n
     res_s = []
-    to_write = []
+#    to_write = []
     random.seed(2)
     graphs = generate_sequence(n)
     n_s = [i for i in range(len(graphs))]
-    i = 0
-    for c in c_s:
-        res = []
-        for g in graphs:
-            edges = g.get_edgelist()
-#            print(i, ' deleted:')
-            i += 1
-#            print(g.get_adjacency(), '\n\n')
-            centralities = get_centralities(g, n, c)
-            w_s = g.similarity_jaccard(pairs=edges)
-            write_data("erdos_renyi.in", n, edges, cent=centralities, w_s=w_s)
-            os.system("./../model < erdos_renyi.in > erdos_renyi.out")
-            ans = read_data("erdos_renyi.out")
-            res.append(ans[0])
-            to_write.append(ans[1])
-        res_s.append((c, res))
+    res = []
+    for g in graphs:
+        edges = g.get_edgelist()
+        w_s = [1/2,]*len(edges)
+        write_data("erdos_renyi.in", n, edges, cent=centralities, w_s=w_s)
+        os.system("./../model < erdos_renyi.in > erdos_renyi.out")
+        ans = read_data("erdos_renyi.out")
+        res.append(ans[0])
+#        to_write.append(ans[1])
 
-    with open('communities.txt', 'w') as f:
-        f.write(json.dumps(to_write))
+    res_s.append(('static', res))
+    with open('sizes.out', 'w') as f:
+        f.write(json.dumps(res))
+
+#    with open('communities.txt', 'w') as f:
+#        f.write(json.dumps(to_write))
     show_plot(n_s, res_s)
-#    print(res_s)
+
