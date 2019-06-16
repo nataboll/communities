@@ -152,6 +152,9 @@
 
 \titleformat{\section}
 {\normalfont\bfseries\centering}{\thesection}{7pt}{}{\large}
+
+\titleformat{\subsection}
+{\normalfont\bfseries\centering}{\thesubsection}{7pt}{}{\large}
 %%%%%%%% Captions %%%%%%%%%%%%%%%%%%%%%%%%%%
 \long\def\@makecaption#1#2{%
   \vskip\abovecaptionskip
