@@ -1943,6 +1943,11 @@
     <bcf:citekey order="19">betweenness</bcf:citekey>
     <bcf:citekey order="20">pagerankcent</bcf:citekey>
     <bcf:citekey order="21">pagerank</bcf:citekey>
+    <bcf:citekey order="22">modularity</bcf:citekey>
+    <bcf:citekey order="23">louvain</bcf:citekey>
+    <bcf:citekey order="24">louvain</bcf:citekey>
+    <bcf:citekey order="25">randomgraphs</bcf:citekey>
+    <bcf:citekey order="26">barabashi2003</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

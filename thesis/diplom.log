@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.22)  16 JUN 2019 12:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.22)  16 JUN 2019 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1797,12 +1797,12 @@ LaTeX Warning: Citation 'clusteringhg' on page 5 undefined on input line 18.
 
 LaTeX Warning: Citation 'fhg2017' on page 5 undefined on input line 18.
 
-) (./mainmatter.tex
-Underfull \hbox (badness 10000) in paragraph at lines 18--1
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-[5]
+) (./mainmatter.tex [5]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
@@ -1871,7 +1871,44 @@ LaTeX Warning: Citation 'pagerankcent' on page 10 undefined on input line 62.
 
 LaTeX Warning: Citation 'pagerank' on page 10 undefined on input line 67.
 
-) (./conclusion.tex) [10]
+
+LaTeX Warning: Citation 'modularity' on page 10 undefined on input line 76.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
+
+ []
+
+
+LaTeX Warning: Citation 'louvain' on page 11 undefined on input line 84.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
+
+ []
+
+[11]
+
+LaTeX Warning: Citation 'louvain' on page 12 undefined on input line 94.
+
+
+LaTeX Warning: Citation 'randomgraphs' on page 12 undefined on input line 100.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
+
+ []
+
+
+LaTeX Warning: Citation 'barabashi2003' on page 12 undefined on input line 106.
+
+
+[12]) (./conclusion.tex) [13]
 
 LaTeX Warning: Empty bibliography on input line 20.
 
@@ -1892,11 +1929,11 @@ Package logreq Info: Writing requests to 'diplom.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24464 strings out of 492982
- 461508 string characters out of 6134895
- 862886 words of memory out of 5000000
- 27704 multiletter control sequences out of 15000+600000
- 558479 words of font info for 86 fonts, out of 8000000 for 9000
+ 24468 strings out of 492982
+ 461542 string characters out of 6134895
+ 862986 words of memory out of 5000000
+ 27705 multiletter control sequences out of 15000+600000
+ 560343 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,5n,45p,10439b,2481s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
@@ -1909,10 +1946,10 @@ ve/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on diplom.pdf (9 pages, 115118 bytes).
+Output written on diplom.pdf (12 pages, 133027 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
