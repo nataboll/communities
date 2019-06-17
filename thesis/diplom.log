@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.22)  17 JUN 2019 00:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.22)  17 JUN 2019 20:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1734,11 +1734,11 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-))
+) [3])
 \tf@toc=\write5
 \openout5 = `diplom.toc'.
 
- [3] (./intro.tex
+ [4] (./intro.tex
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -1746,7 +1746,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 
-LaTeX Warning: Citation 'Newman2004' on page 4 undefined on input line 5.
+LaTeX Warning: Citation 'Newman2004' on page 5 undefined on input line 5.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
@@ -1754,10 +1754,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
-LaTeX Warning: Citation 'ml' on page 4 undefined on input line 7.
+LaTeX Warning: Citation 'ml' on page 5 undefined on input line 7.
 
 
-LaTeX Warning: Citation 'ml1' on page 4 undefined on input line 7.
+LaTeX Warning: Citation 'ml1' on page 5 undefined on input line 7.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
@@ -1768,17 +1768,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 LaTeX Font Warning: Font shape `T2A/ptm/m/it' undefined
 (Font)              using `T2A/ptm/m/n' instead on input line 11.
 
-[4
+[5
 
 ]
 
-LaTeX Warning: Citation 'Raghavan' on page 5 undefined on input line 16.
+LaTeX Warning: Citation 'Raghavan' on page 6 undefined on input line 16.
 
 
-LaTeX Warning: Citation 'infomap' on page 5 undefined on input line 16.
+LaTeX Warning: Citation 'infomap' on page 6 undefined on input line 16.
 
 
-LaTeX Warning: Citation 'Balliu' on page 5 undefined on input line 16.
+LaTeX Warning: Citation 'Balliu' on page 6 undefined on input line 16.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
@@ -1786,23 +1786,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
  []
 
 
-LaTeX Warning: Citation 'clusteringhg' on page 5 undefined on input line 18.
+LaTeX Warning: Citation 'clusteringhg' on page 6 undefined on input line 18.
 
 
-LaTeX Warning: Citation 'framework' on page 5 undefined on input line 18.
+LaTeX Warning: Citation 'framework' on page 6 undefined on input line 18.
 
 
-LaTeX Warning: Citation 'clusteringhg' on page 5 undefined on input line 18.
+LaTeX Warning: Citation 'clusteringhg' on page 6 undefined on input line 18.
 
 
-LaTeX Warning: Citation 'fhg2017' on page 5 undefined on input line 18.
+LaTeX Warning: Citation 'fhg2017' on page 6 undefined on input line 18.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-) (./mainmatter.tex [5]
+) (./mainmatter.tex [6]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
@@ -1815,16 +1815,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
  []
 
 
-LaTeX Warning: Citation 'firsthg' on page 6 undefined on input line 8.
+LaTeX Warning: Citation 'firsthg' on page 7 undefined on input line 8.
 
 
-LaTeX Warning: Citation 'core1' on page 6 undefined on input line 8.
+LaTeX Warning: Citation 'core1' on page 7 undefined on input line 8.
 
 
-LaTeX Warning: Citation 'core2' on page 6 undefined on input line 8.
+LaTeX Warning: Citation 'core2' on page 7 undefined on input line 8.
 
 
-LaTeX Warning: Citation 'core3' on page 6 undefined on input line 8.
+LaTeX Warning: Citation 'core3' on page 7 undefined on input line 8.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
@@ -1836,11 +1836,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-[6
+[7
 
 ]
 
-LaTeX Warning: Citation 'clusteringhg' on page 7 undefined on input line 12.
+LaTeX Warning: Citation 'clusteringhg' on page 8 undefined on input line 12.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
@@ -1848,44 +1848,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
  []
 
 
-LaTeX Warning: Citation 'clusteringhg' on page 7 undefined on input line 14.
+LaTeX Warning: Citation 'clusteringhg' on page 8 undefined on input line 14.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-[7]
-
-LaTeX Warning: Citation 'betweenness' on page 8 undefined on input line 22.
-
 [8]
+
+LaTeX Warning: Citation 'betweenness' on page 9 undefined on input line 22.
+
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
 
-[9]
+[10]
 
-LaTeX Warning: Citation 'pagerankcent' on page 10 undefined on input line 62.
-
-
-LaTeX Warning: Citation 'pagerank' on page 10 undefined on input line 67.
+LaTeX Warning: Citation 'pagerankcent' on page 11 undefined on input line 62.
 
 
-LaTeX Warning: Citation 'modularity' on page 10 undefined on input line 76.
+LaTeX Warning: Citation 'pagerank' on page 11 undefined on input line 67.
+
+
+LaTeX Warning: Citation 'modularity' on page 11 undefined on input line 76.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-[10]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 81--83
 
  []
 
 
-LaTeX Warning: Citation 'louvain' on page 11 undefined on input line 84.
+LaTeX Warning: Citation 'louvain' on page 12 undefined on input line 84.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 91--93
@@ -1893,11 +1893,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--93
  []
 
 
-LaTeX Warning: Citation 'louvain' on page 11 undefined on input line 94.
+LaTeX Warning: Citation 'louvain' on page 12 undefined on input line 94.
 
-[11]
+[12]
 
-LaTeX Warning: Citation 'randomgraphs' on page 12 undefined on input line 100.
+LaTeX Warning: Citation 'randomgraphs' on page 13 undefined on input line 100.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 103--105
@@ -1905,15 +1905,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--105
  []
 
 
-LaTeX Warning: Citation 'barabashi2003' on page 12 undefined on input line 106.
+LaTeX Warning: Citation 'barabashi2003' on page 13 undefined on input line 106.
 
 
-[12]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
-[13]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
@@ -1924,7 +1924,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--156
  []
 
 
-LaTeX Warning: Citation 'shapiro' on page 14 undefined on input line 157.
+LaTeX Warning: Citation 'shapiro' on page 15 undefined on input line 157.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
@@ -1932,14 +1932,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--158
  []
 
 
-LaTeX Warning: Citation 'jarqueber' on page 14 undefined on input line 159.
+LaTeX Warning: Citation 'jarqueber' on page 15 undefined on input line 159.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
-[14]
+[15]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 168--169
@@ -1951,7 +1951,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
-[15
+[16
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 175--177
@@ -1963,34 +1963,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
-[16]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
-[17]
+[18]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 5.
-<pics/colormap.png, id=63, 144.54pt x 150.5625pt>
+<pics/colormap.png, id=66, 144.54pt x 150.5625pt>
 File: pics/colormap.png Graphic file (type png)
 <use pics/colormap.png>
 Package pdftex.def Info: pics/colormap.png  used on input line 215.
 (pdftex.def)             Requested size: 112.74072pt x 117.43826pt.
-<pics/random_count.png, id=65, 1159.33125pt x 650.43pt>
+<pics/random_count.png, id=68, 1159.33125pt x 650.43pt>
 File: pics/random_count.png Graphic file (type png)
 <use pics/random_count.png>
 Package pdftex.def Info: pics/random_count.png  used on input line 220.
 (pdftex.def)             Requested size: 469.47049pt x 263.39293pt.
-<pics/random_d.png, id=66, 1167.36125pt x 643.40375pt>
+<pics/random_d.png, id=69, 1167.36125pt x 643.40375pt>
 File: pics/random_d.png Graphic file (type png)
 <use pics/random_d.png>
 Package pdftex.def Info: pics/random_d.png  used on input line 227.
 (pdftex.def)             Requested size: 469.47049pt x 258.75102pt.
-<pics/jaccard_count.png, id=67, 1182.4175pt x 659.46375pt>
+<pics/jaccard_count.png, id=70, 1182.4175pt x 659.46375pt>
 File: pics/jaccard_count.png Graphic file (type png)
 <use pics/jaccard_count.png>
 Package pdftex.def Info: pics/jaccard_count.png  used on input line 234.
 (pdftex.def)             Requested size: 469.47049pt x 261.82867pt.
-<pics/jaccard_d.png, id=68, 1171.37625pt x 663.47874pt>
+<pics/jaccard_d.png, id=71, 1171.37625pt x 663.47874pt>
 File: pics/jaccard_d.png Graphic file (type png)
 <use pics/jaccard_d.png>
 Package pdftex.def Info: pics/jaccard_d.png  used on input line 241.
@@ -2000,20 +2000,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
-[18
+[19
 
- <./pics/colormap.png>] [19 <./pics/random_count.png> <./pics/random_d.png>] [2
-0 <./pics/jaccard_count.png> <./pics/jaccard_d.png>]
+ <./pics/colormap.png>] [20 <./pics/random_count.png> <./pics/random_d.png>] [2
+1 <./pics/jaccard_count.png> <./pics/jaccard_d.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
-<pics/ba_static.png, id=84, 1169.36874pt x 612.2875pt>
+<pics/ba_static.png, id=87, 1169.36874pt x 612.2875pt>
 File: pics/ba_static.png Graphic file (type png)
 <use pics/ba_static.png>
 Package pdftex.def Info: pics/ba_static.png  used on input line 254.
 (pdftex.def)             Requested size: 469.47049pt x 245.81691pt.
-<pics/ba_static_d.png, id=85, 1185.42876pt x 616.3025pt>
+<pics/ba_static_d.png, id=88, 1185.42876pt x 616.3025pt>
 File: pics/ba_static_d.png Graphic file (type png)
 <use pics/ba_static_d.png>
 Package pdftex.def Info: pics/ba_static_d.png  used on input line 263.
@@ -2021,7 +2021,7 @@ Package pdftex.def Info: pics/ba_static_d.png  used on input line 263.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pics/ba_jaccard.png, id=86, 1151.30125pt x 612.2875pt>
+<pics/ba_jaccard.png, id=89, 1151.30125pt x 612.2875pt>
 File: pics/ba_jaccard.png Graphic file (type png)
 <use pics/ba_jaccard.png>
 Package pdftex.def Info: pics/ba_jaccard.png  used on input line 270.
@@ -2029,7 +2029,7 @@ Package pdftex.def Info: pics/ba_jaccard.png  used on input line 270.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pics/ba_jaccard_d.png, id=87, 1154.3125pt x 607.26875pt>
+<pics/ba_jaccard_d.png, id=90, 1154.3125pt x 607.26875pt>
 File: pics/ba_jaccard_d.png Graphic file (type png)
 <use pics/ba_jaccard_d.png>
 Package pdftex.def Info: pics/ba_jaccard_d.png  used on input line 277.
@@ -2037,17 +2037,90 @@ Package pdftex.def Info: pics/ba_jaccard_d.png  used on input line 277.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21 <./pics/ba_static.png>]
+[22 <./pics/ba_static.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 284--285
 
  []
 
-[22 <./pics/ba_static_d.png> <./pics/ba_jaccard.png>]) (./conclusion.tex)
-[23 <./pics/ba_jaccard_d.png>]
+[23 <./pics/ba_static_d.png> <./pics/ba_jaccard.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+
+ []
+
+[24 <./pics/ba_jaccard_d.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+
+ []
+
+<pics/interpolation.png, id=107, 433.62pt x 289.08pt>
+File: pics/interpolation.png Graphic file (type png)
+<use pics/interpolation.png>
+Package pdftex.def Info: pics/interpolation.png  used on input line 331.
+(pdftex.def)             Requested size: 469.47049pt x 312.99571pt.
+[26 <./pics/interpolation.png>]
+<pics/distribution.png, id=113, 433.62pt x 289.08pt>
+File: pics/distribution.png Graphic file (type png)
+<use pics/distribution.png>
+Package pdftex.def Info: pics/distribution.png  used on input line 341.
+(pdftex.def)             Requested size: 469.47049pt x 312.99571pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+
+ []
+
+[27 <./pics/distribution.png>]
+<pics/d1234.png, id=118, 1342.01375pt x 826.08624pt>
+File: pics/d1234.png Graphic file (type png)
+<use pics/d1234.png>
+Package pdftex.def Info: pics/d1234.png  used on input line 355.
+(pdftex.def)             Requested size: 469.47049pt x 288.98325pt.
+<pics/d12.png, id=119, 1135.24126pt x 354.32375pt>
+File: pics/d12.png Graphic file (type png)
+<use pics/d12.png>
+Package pdftex.def Info: pics/d12.png  used on input line 364.
+(pdftex.def)             Requested size: 469.47049pt x 146.52798pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pics/qqs.png, id=120, 867.24pt x 289.08pt>
+File: pics/qqs.png Graphic file (type png)
+<use pics/qqs.png>
+Package pdftex.def Info: pics/qqs.png  used on input line 373.
+(pdftex.def)             Requested size: 469.47049pt x 156.49344pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./conclusion.tex) [28 <./pics/d1234.png>]
 
 LaTeX Warning: Empty bibliography on input line 20.
 
-(./diplom.aux)
+[29 <./pics/d12.png> <./pics/qqs.png>] (./diplom.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2064,11 +2137,11 @@ Package logreq Info: Writing requests to 'diplom.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24527 strings out of 492982
- 462704 string characters out of 6134895
- 864086 words of memory out of 5000000
- 27752 multiletter control sequences out of 15000+600000
- 561450 words of font info for 90 fonts, out of 8000000 for 9000
+ 24561 strings out of 492982
+ 463276 string characters out of 6134895
+ 865135 words of memory out of 5000000
+ 27778 multiletter control sequences out of 15000+600000
+ 563158 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,13n,45p,10439b,2481s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
@@ -2081,10 +2154,10 @@ ve/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diplom.pdf (22 pages, 817878 bytes).
+Output written on diplom.pdf (28 pages, 920252 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 165 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
