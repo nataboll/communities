@@ -1945,11 +1945,10 @@
     <bcf:citekey order="19">pagerank</bcf:citekey>
     <bcf:citekey order="20">modularity</bcf:citekey>
     <bcf:citekey order="21">louvain</bcf:citekey>
-    <bcf:citekey order="22">louvain</bcf:citekey>
-    <bcf:citekey order="23">randomgraphs</bcf:citekey>
-    <bcf:citekey order="24">barabashi2003</bcf:citekey>
-    <bcf:citekey order="25">shapiro</bcf:citekey>
-    <bcf:citekey order="26">jarqueber</bcf:citekey>
+    <bcf:citekey order="22">randomgraphs</bcf:citekey>
+    <bcf:citekey order="23">barabashi2003</bcf:citekey>
+    <bcf:citekey order="24">shapiro</bcf:citekey>
+    <bcf:citekey order="25">jarqueber</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
