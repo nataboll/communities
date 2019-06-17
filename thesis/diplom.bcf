@@ -1924,32 +1924,32 @@
     <bcf:datasource type="file" datatype="bibtex">communities.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="3">Newman2004</bcf:citekey>
-    <bcf:citekey order="4">ml</bcf:citekey>
-    <bcf:citekey order="5">ml1</bcf:citekey>
-    <bcf:citekey order="6">Raghavan</bcf:citekey>
-    <bcf:citekey order="7">infomap</bcf:citekey>
-    <bcf:citekey order="8">Balliu</bcf:citekey>
+    <bcf:citekey order="1">Newman2004</bcf:citekey>
+    <bcf:citekey order="2">ml</bcf:citekey>
+    <bcf:citekey order="3">ml1</bcf:citekey>
+    <bcf:citekey order="4">Raghavan</bcf:citekey>
+    <bcf:citekey order="5">infomap</bcf:citekey>
+    <bcf:citekey order="6">Balliu</bcf:citekey>
+    <bcf:citekey order="7">clusteringhg</bcf:citekey>
+    <bcf:citekey order="8">framework</bcf:citekey>
     <bcf:citekey order="9">clusteringhg</bcf:citekey>
-    <bcf:citekey order="10">framework</bcf:citekey>
-    <bcf:citekey order="11">clusteringhg</bcf:citekey>
-    <bcf:citekey order="12">fhg2017</bcf:citekey>
-    <bcf:citekey order="13">firsthg</bcf:citekey>
-    <bcf:citekey order="14">core1</bcf:citekey>
-    <bcf:citekey order="15">core2</bcf:citekey>
-    <bcf:citekey order="16">core3</bcf:citekey>
-    <bcf:citekey order="17">clusteringhg</bcf:citekey>
-    <bcf:citekey order="18">clusteringhg</bcf:citekey>
-    <bcf:citekey order="19">betweenness</bcf:citekey>
-    <bcf:citekey order="20">pagerankcent</bcf:citekey>
-    <bcf:citekey order="21">pagerank</bcf:citekey>
-    <bcf:citekey order="22">modularity</bcf:citekey>
-    <bcf:citekey order="23">louvain</bcf:citekey>
-    <bcf:citekey order="24">louvain</bcf:citekey>
-    <bcf:citekey order="25">randomgraphs</bcf:citekey>
-    <bcf:citekey order="26">barabashi2003</bcf:citekey>
-    <bcf:citekey order="27">shapiro</bcf:citekey>
-    <bcf:citekey order="28">jarqueber</bcf:citekey>
+    <bcf:citekey order="10">fhg2017</bcf:citekey>
+    <bcf:citekey order="11">firsthg</bcf:citekey>
+    <bcf:citekey order="12">core1</bcf:citekey>
+    <bcf:citekey order="13">core2</bcf:citekey>
+    <bcf:citekey order="14">core3</bcf:citekey>
+    <bcf:citekey order="15">clusteringhg</bcf:citekey>
+    <bcf:citekey order="16">clusteringhg</bcf:citekey>
+    <bcf:citekey order="17">betweenness</bcf:citekey>
+    <bcf:citekey order="18">pagerankcent</bcf:citekey>
+    <bcf:citekey order="19">pagerank</bcf:citekey>
+    <bcf:citekey order="20">modularity</bcf:citekey>
+    <bcf:citekey order="21">louvain</bcf:citekey>
+    <bcf:citekey order="22">louvain</bcf:citekey>
+    <bcf:citekey order="23">randomgraphs</bcf:citekey>
+    <bcf:citekey order="24">barabashi2003</bcf:citekey>
+    <bcf:citekey order="25">shapiro</bcf:citekey>
+    <bcf:citekey order="26">jarqueber</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

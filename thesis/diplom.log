@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.22)  17 JUN 2019 20:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.22)  17 JUN 2019 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1720,26 +1720,25 @@ LaTeX Font Info:    Try loading font information for U+esint on input line 5.
 File: uesint.fd 
 )
 \c__siunitx_mathtt_int=\count415
- (./annotation.tex
-\IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 1.
-
-LaTeX Font Warning: Font shape `T2A/ptm/bx/n' undefined
-(Font)              using `T2A/ptm/m/n' instead on input line 1.
-
-) [2
-
+ (./annotation.tex)
+[2
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./diplom.toc
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) [3])
+)
+
+LaTeX Font Warning: Font shape `T2A/ptm/bx/n' undefined
+(Font)              using `T2A/ptm/m/n' instead on input line 3.
+
+[3])
 \tf@toc=\write5
 \openout5 = `diplom.toc'.
 
  [4] (./intro.tex
-\IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 2.
+\IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
@@ -1803,7 +1802,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
  []
 
 ) (./mainmatter.tex [6]
-\IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 3.
+\IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
@@ -1857,7 +1856,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
 [8]
 
-LaTeX Warning: Citation 'betweenness' on page 9 undefined on input line 22.
+LaTeX Warning: Citation 'betweenness' on page 9 undefined on input line 23.
 
 [9]
 Underfull \hbox (badness 10000) in paragraph at lines 39--41
@@ -1866,7 +1865,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
 [10]
 
-LaTeX Warning: Citation 'pagerankcent' on page 11 undefined on input line 62.
+LaTeX Warning: Citation 'pagerankcent' on page 11 undefined on input line 63.
 
 
 LaTeX Warning: Citation 'pagerank' on page 11 undefined on input line 67.
@@ -1940,7 +1939,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--160
  []
 
 [15]
-\IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 4.
+\IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
@@ -1969,7 +1968,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--204
  []
 
 [18]
-\IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 5.
+\IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 4.
 <pics/colormap.png, id=66, 144.54pt x 150.5625pt>
 File: pics/colormap.png Graphic file (type png)
 <use pics/colormap.png>
@@ -2116,11 +2115,26 @@ Package pdftex.def Info: pics/qqs.png  used on input line 373.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./conclusion.tex) [28 <./pics/d1234.png>]
+[28 <./pics/d1234.png>]
+<pics/greedy_mod.png, id=125, 1122.1925pt x 629.35126pt>
+File: pics/greedy_mod.png Graphic file (type png)
+<use pics/greedy_mod.png>
+Package pdftex.def Info: pics/greedy_mod.png  used on input line 383.
+(pdftex.def)             Requested size: 469.47049pt x 263.28859pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./conclusion.tex [29 <./pics/d12.png> <./pics/qqs.png>] [30 <./pics/greedy_m
+od.png>]
+\IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 5.
+) [31
+
+]
 
 LaTeX Warning: Empty bibliography on input line 20.
 
-[29 <./pics/d12.png> <./pics/qqs.png>] (./diplom.aux)
+(./diplom.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2137,13 +2151,13 @@ Package logreq Info: Writing requests to 'diplom.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24561 strings out of 492982
- 463276 string characters out of 6134895
- 865135 words of memory out of 5000000
- 27778 multiletter control sequences out of 15000+600000
+ 24567 strings out of 492982
+ 463401 string characters out of 6134895
+ 865145 words of memory out of 5000000
+ 27783 multiletter control sequences out of 15000+600000
  563158 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,13n,45p,10439b,2481s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,13n,45p,10439b,1814s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
@@ -2154,10 +2168,10 @@ ve/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diplom.pdf (28 pages, 920252 bytes).
+Output written on diplom.pdf (30 pages, 975745 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
+ 173 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
