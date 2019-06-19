@@ -1941,7 +1941,7 @@
     <bcf:citekey order="16">clusteringhg</bcf:citekey>
     <bcf:citekey order="17">clusteringhg</bcf:citekey>
     <bcf:citekey order="18">betweenness</bcf:citekey>
-    <bcf:citekey order="19">pagerank</bcf:citekey>
+    <bcf:citekey order="19">pagerankcent</bcf:citekey>
     <bcf:citekey order="20">pagerank</bcf:citekey>
     <bcf:citekey order="21">modularity</bcf:citekey>
     <bcf:citekey order="22">newmandir</bcf:citekey>
