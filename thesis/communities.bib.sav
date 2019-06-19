@@ -1,0 +1,199 @@
+% Encoding: UTF-8
+
+@Article{Newman2004,
+  author    = {M. E. J. Newman},
+  title     = {Fast algorithm for detecting community structure in networks},
+  journal   = {Physical Review E},
+  year      = {2004},
+  volume    = {69},
+  number    = {6},
+  month     = {6},
+  doi       = {10.1103/physreve.69.066133},
+  publisher = {American Physical Society ({APS})},
+}
+
+@Article{Raghavan,
+  author       = {Usha Nandini Raghavan and Reka Albert and Soundar Kumara},
+  title        = {Near linear time algorithm to detect community structures in large-scale networks},
+  abstract     = {Community detection and analysis is an important methodology for understanding the organization of various real-world networks and has applications in problems as diverse as consensus formation in social communities or the identification of functional modules in biochemical networks. Currently used algorithms that identify the community structures in large-scale real-world networks require a priori information such as the number and sizes of communities or are computationally expensive. In this paper we investigate a simple label propagation algorithm that uses the network structure alone as its guide and requires neither optimization of a pre-defined objective function nor prior information about the communities. In our algorithm every node is initialized with a unique label and at every step each node adopts the label that most of its neighbors currently have. In this iterative process densely connected groups of nodes form a consensus on a unique label to form communities. We validate the algorithm by applying it to networks whose community structures are known. We also demonstrate that the algorithm takes an almost linear time and hence it is computationally less expensive than what was possible so far.},
+  date         = {2007-09-19},
+  doi          = {10.1103/PhysRevE.76.036106},
+  eprint       = {0709.2938v1},
+  eprintclass  = {physics.soc-ph},
+  eprinttype   = {arXiv},
+  file         = {online:http\://arxiv.org/pdf/0709.2938v1:PDF},
+  journaltitle = {Physical Review E 76, 036106 (2007)},
+  keywords     = {physics.soc-ph},
+}
+
+@Article{ml,
+  author  = {Rafal Drezewskia and Jan Sepielaka and Wojciech Filipkowskib},
+  title   = {The Application of Social Network Analysis Algorithms in a System Supporting Money Laundering Detection},
+  journal = {Information Sciences},
+  year    = {2015},
+}
+
+@Article{ml1,
+  author  = {Xurui Li and Xiang Cao and Xuetao Qiu and Jintao Zhao and Jianbin Zheng},
+  title   = {Intelligent Anti-Money Laundering Solution Based upon Novel Community Detection in Massive Transaction Networks on Spark},
+  journal = {IEEE},
+  year    = {2017},
+}
+
+@Article{infomap,
+  author  = {Martin Rosvall and Carl T. Bergstrom},
+  title   = {Maps of random walks on complex networks reveal community structure},
+  journal = {Brian Skyrms},
+  year    = {2007},
+}
+
+@Article{clusteringhg,
+  author  = {Moran Feldman, Liane Lewin-Eytan, Joseph (Seffi) Naor},
+  title   = {Hedonic Clustering Games},
+  journal = {ACM Transactions on Parallel Computing},
+  year    = {2015},
+}
+
+@Article{framework,
+  author  = {Michal Feldman, Ophir Friedler},
+  title   = {A Unified Framework for Strong Price of Anarchy in Clustering Games},
+  journal = {ICALP},
+  year    = {2015},
+}
+
+@Article{fhg2017,
+  author      = {Haris Aziz and Florian Brandl and Felix Brandt and Paul Harrenstein and Martin Olsen and Dominik Peters},
+  title       = {Fractional Hedonic Games},
+  abstract    = {The work we present in this paper initiated the formal study of fractional hedonic games, coalition formation games in which the utility of a player is the average value he ascribes to the members of his coalition. Among other settings, this covers situations in which players only distinguish between friends and non-friends and desire to be in a coalition in which the fraction of friends is maximal. Fractional hedonic games thus not only constitute a natural class of succinctly representable coalition formation games, but also provide an interesting framework for network clustering. We propose a number of conditions under which the core of fractional hedonic games is non-empty and provide algorithms for computing a core stable outcome. By contrast, we show that the core may be empty in other cases, and that it is computationally hard in general to decide non-emptiness of the core.},
+  date        = {2017-05-29},
+  eprint      = {1705.10116v1},
+  eprintclass = {cs.GT},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/1705.10116v1:PDF},
+  keywords    = {cs.GT},
+}
+
+@InProceedings{Balliu,
+  author    = {Balliu, Alkida and Flammini, Michele and Olivetti, Dennis},
+  title     = {On Pareto Optimality in Social Distance Games},
+  booktitle = {Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence},
+  year      = {2017},
+  series    = {AAAI'17},
+  pages     = {349--355},
+  publisher = {AAAI Press},
+  acmid     = {3298293},
+  location  = {San Francisco, California, USA},
+  numpages  = {7},
+  url       = {http://dl.acm.org/citation.cfm?id=3298239.3298293},
+}
+
+@Article{firsthg,
+  author  = {J. H. Drèze and J. Greenberg},
+  title   = {Hedonic Coalitions: Optimality and Stability},
+  journal = {The Econometric Society},
+  year    = {1980},
+}
+
+@Article{core1,
+  author  = {Suryapratim Banerjee, Hideo Konishi and Tayfun Sönmez},
+  title   = {Core in a simple coalition formation game},
+  journal = {Springer},
+  year    = {2001},
+}
+
+@Article{core2,
+  author  = {Francis Bloch, Effrosyni Diamantoudi},
+  title   = {Noncooperative formation of coalitions in hedonic games},
+  journal = {International Journal of Game Theory},
+  year    = {2010},
+}
+
+@Article{core3,
+  author = {Anna Bogomolnaia, Matthew O.Jackson},
+  title  = {The Stability of Hedonic Coalition Structures},
+  year   = {2001},
+}
+
+@Article{betweenness,
+  author  = {Linton C. Freeman},
+  title   = {A Set of Measures of Centrality Based on Betweenness},
+  journal = {American Sociological Association},
+  year    = {1997},
+}
+
+@Article{pagerank,
+  author = {Page, Lawrence and Brin, Sergey and Motwani, Rajeev and Winograd, Terry},
+  title  = {The PageRank Citation Ranking: Bringing Order to the Web},
+  year   = {1999},
+}
+
+@Article{pagerankcent,
+  author  = {Francisco Pedroche, Miguel Romance, Regino Criado},
+  title   = {A biplex approach to PageRank centrality: From classic to multiplex networks},
+  journal = {Chaos: An Interdisciplinary Journal of Nonlinear Science},
+  year    = {2016},
+}
+
+@Article{modularity,
+  author  = {Ulrik Brandesa and Daniel Delling and Marco Gaertler and Robert Gorke and Martin Hoefer and Zoran Nikoloski and Dorothea Wagner},
+  title   = {On Modularity Clustering},
+  journal = {IEEE},
+  year    = {2007},
+}
+
+@Article{louvain,
+  author = {Nicolas Dugue, Anthony Perez},
+  title  = {Directed Louvain : maximizing modularity in directed networks},
+  year   = {2015},
+}
+
+@Article{randomgraphs,
+  author  = {А.М. Райгородский},
+  title   = {Модели случайных графов и их применения},
+  journal = {Труды МФТИ},
+  year    = {2010},
+}
+
+@Article{barabashi2003,
+  author  = {Béla Bollobás and Christian Borgs and Jennifer Chayes and Oliver Riordan},
+  title   = {Directed scale-free graphs},
+  journal = {SODA '03 Proceedings of the fourteenth annual ACM-SIAM symposium on Discrete algorithms},
+  year    = {2003},
+}
+
+@Article{shapiro,
+  author  = {Royston, J. P.},
+  title   = {Algorithm AS 181: The W Test for Normality},
+  journal = {Journal of the Royal Statistical Society. Series C (Applied Statistics)},
+  year    = {1982},
+}
+
+@Article{jarqueber,
+  author = {Thorsten Thadewald, Herbert Büning},
+  title  = {Jarque–Bera Test and its Competitors for Testing Normality – A Power Comparison},
+  year   = {2007},
+}
+
+@Article{mining,
+  author  = {Annapurna Jonnalagadda, Lakshmanan Kuppusamy},
+  title   = {Mining Communities in Directed Networks: A Game Theoretic Approach},
+  journal = {International Conference on Intelligent Systems Design and Applications},
+  year    = {2017},
+}
+
+@Article{newmandir,
+  author       = {E. A. Leicht and M. E. J. Newman},
+  title        = {Community structure in directed networks},
+  year         = {2008},
+  abstract     = {We consider the problem of finding communities or modules in directed networks. The most common approach to this problem in the previous literature has been simply to ignore edge direction and apply methods developed for community discovery in undirected networks, but this approach discards potentially useful information contained in the edge directions. Here we show how the widely used benefit function known as modularity can be generalized in a principled fashion to incorporate the information contained in edge directions. This in turn allows us to find communities by maximizing the modularity over possible divisions of a network, which we do using an algorithm based on the eigenvectors of the corresponding modularity matrix. This method is shown to give demonstrably better results than previous methods on a variety of test networks, both real and computer-generated.},
+  date         = {2007-09-27},
+  doi          = {10.1103/PhysRevLett.100.118703},
+  eprint       = {0709.4500v1},
+  eprintclass  = {physics.data-an},
+  eprinttype   = {arXiv},
+  file         = {online:http\://arxiv.org/pdf/0709.4500v1:PDF},
+  journaltitle = {Phys. Rev. Lett. 100, 118703 (2008)},
+  keywords     = {physics.data-an, physics.soc-ph},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
