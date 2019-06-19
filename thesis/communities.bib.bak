@@ -7,7 +7,7 @@
   year      = {2004},
   volume    = {69},
   number    = {6},
-  month     = {jun},
+  month     = {6},
   doi       = {10.1103/physreve.69.066133},
   publisher = {American Physical Society ({APS})},
 }
@@ -27,14 +27,14 @@
 }
 
 @Article{ml,
-  author  = {Rafał Dreżewskia and Jan Sepielaka and Wojciech Filipkowskib},
+  author  = {Rafal Drezewskia and Jan Sepielaka and Wojciech Filipkowskib},
   title   = {The Application of Social Network Analysis Algorithms in a System Supporting Money Laundering Detection},
   journal = {Information Sciences},
   year    = {2015},
 }
 
 @Article{ml1,
-  author  = {Xurui Li, Xiang Cao, Xuetao Qiu, Jintao Zhao, Jianbin Zheng},
+  author  = {Xurui Li and Xiang Cao and Xuetao Qiu and Jintao Zhao and Jianbin Zheng},
   title   = {Intelligent Anti-Money Laundering Solution Based upon Novel Community Detection in Massive Transaction Networks on Spark},
   journal = {IEEE},
   year    = {2017},
@@ -128,9 +128,57 @@
 }
 
 @Article{pagerankcent,
-  author = {Francisco Pedroche, Miguel Romance, Regino Criado},
-  title  = {A biplex approach to PageRank centrality: From classic to multiplex networks},
-  year   = {2016},
+  author  = {Francisco Pedroche, Miguel Romance, Regino Criado},
+  title   = {A biplex approach to PageRank centrality: From classic to multiplex networks},
+  journal = {Chaos: An Interdisciplinary Journal of Nonlinear Science},
+  year    = {2016},
+}
+
+@Article{modularity,
+  author  = {Ulrik Brandesa and Daniel Delling and Marco Gaertler and Robert Gorke and Martin Hoefer and Zoran Nikoloski and Dorothea Wagner},
+  title   = {On Modularity Clustering},
+  journal = {IEEE},
+  year    = {2007},
+}
+
+@Article{louvain,
+  author = {Nicolas Dugue, Anthony Perez},
+  title  = {Directed Louvain : maximizing modularity in directed networks},
+  year   = {2015},
+}
+
+@Article{randomgraphs,
+  author  = {А.М. Райгородский},
+  title   = {Модели случайных графов и их применения},
+  journal = {Труды МФТИ},
+  year    = {2010},
+}
+
+@Article{barabashi2003,
+  author  = {Béla Bollobás and Christian Borgs and Jennifer Chayes and Oliver Riordan},
+  title   = {Directed scale-free graphs},
+  journal = {SODA '03 Proceedings of the fourteenth annual ACM-SIAM symposium on Discrete algorithms},
+  year    = {2003},
+}
+
+@Article{shapiro,
+  author  = {Royston, J. P.},
+  title   = {Algorithm AS 181: The W Test for Normality},
+  journal = {Journal of the Royal Statistical Society. Series C (Applied Statistics)},
+  year    = {1982},
+}
+
+@Article{jarqueber,
+  author = {Thorsten Thadewald, Herbert Büning},
+  title  = {Jarque–Bera Test and its Competitors for Testing Normality – A Power Comparison},
+  year   = {2007},
+}
+
+@Article{mining,
+  author  = {Annapurna Jonnalagadda, Lakshmanan Kuppusamy},
+  title   = {Mining Communities in Directed Networks: A Game Theoretic Approach},
+  journal = {International Conference on Intelligent Systems Design and Applications},
+  year    = {2017},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

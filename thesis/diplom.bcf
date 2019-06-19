@@ -289,7 +289,6 @@
     <bcf:option datatype="string">datelabel</bcf:option>
     <bcf:option datatype="string">backrefstyle</bcf:option>
     <bcf:option datatype="string">arxiv</bcf:option>
-    <bcf:option datatype="string">citepages</bcf:option>
     <bcf:option datatype="boolean">familyinits</bcf:option>
     <bcf:option datatype="boolean">giveninits</bcf:option>
     <bcf:option datatype="boolean">prefixinits</bcf:option>
@@ -373,7 +372,7 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
-    <bcf:option datatype="boolean">dashed</bcf:option>
+    <bcf:option datatype="boolean">subentry</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
     <bcf:option datatype="integer">maxnames</bcf:option>
@@ -1942,8 +1941,8 @@
     <bcf:citekey order="16">clusteringhg</bcf:citekey>
     <bcf:citekey order="17">betweenness</bcf:citekey>
     <bcf:citekey order="18">pagerankcent</bcf:citekey>
-    <bcf:citekey order="19">pagerank</bcf:citekey>
-    <bcf:citekey order="20">modularity</bcf:citekey>
+    <bcf:citekey order="19">modularity</bcf:citekey>
+    <bcf:citekey order="20">newmandir</bcf:citekey>
     <bcf:citekey order="21">louvain</bcf:citekey>
     <bcf:citekey order="22">randomgraphs</bcf:citekey>
     <bcf:citekey order="23">barabashi2003</bcf:citekey>
